@@ -92,3 +92,44 @@ To learn more about React Native, take a look at the following resources:
 
 ## Dependencies
   
+  ## Navigation Dependencies :
+
+    # ref : https://reactnavigation.org/docs/getting-started/
+    --npm install @react-navigation/native
+    --npm install react-native-screens --react-native-safe-area-context
+  
+    # add this dependencie in MainActivity.kt file
+    import android.os.Bundle;
+
+      override fun onCreate(savedInstanceState: Bundle?) {
+      super.onCreate(null)
+    }
+
+    # native stack navigation (imp=> we use native stack navigation not a stack navigation)
+    # ref : https://reactnavigation.org/docs/native-stack-navigator
+    --npm install @react-navigation/native-stack
+
+
+  ## Elemental dependencies
+    --npm install react-native-linear-gradient
+    --npm i lottie-react-native
+    --npm i react-native-vector-icons
+    --npm i --save-dev @types/react-native-vector-icons
+
+  ## Zustand
+    --npm install zustand
+
+    --npm i @react-native-async-storage/async-storage
+
+## clean and start again
+  --cd .\android\
+  -- .\gradlew clean
+
+  --npx react-native start
+
+##
+
+
+
+
+  
