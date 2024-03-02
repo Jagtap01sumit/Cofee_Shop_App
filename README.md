@@ -77,3 +77,18 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+#### Documentation
+
+# create react-native cli app
+  npx react-native@latest init MyCafe
+
+# start app
+  npx start
+
+  C:\Users\HP\Desktop\cafe app\MyCafe\android\app\src\main\AndroidManifest.xml  => add =>  android:screenOrientation="portrait" => only portrait mode on
+
+## Dependencies
+  
